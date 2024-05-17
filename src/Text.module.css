@@ -1,0 +1,12 @@
+.card{
+    @apply w-72 my-3 mx-2.5 p-1 transition-all bg-pink-50 h-60 rounded-xl shadow-md flex justify-center items-center
+}
+
+.card_translate{
+    @apply w-72 p-1 mx-2.5 -translate-x-160 transition-all my-3 bg-pink-50 h-60 rounded-xl shadow-md flex justify-center items-center
+}
+
+.card_untranslate{
+    @apply w-72 p-1 mx-2.5 translate-x-0 transition-all my-3 bg-pink-50 h-60 rounded-xl shadow-md flex justify-center items-center
+}
+
